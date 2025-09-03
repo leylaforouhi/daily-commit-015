@@ -1,5 +1,5 @@
 def capitalize_words(text):
-    return " ".join(word.capitalize() for word in text.split())
+    return " ".join(word.capitalize() for word in text.spli())
 
 if __name__ == "__main__":
     sample = "github daily commit"
